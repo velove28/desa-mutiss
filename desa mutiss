@@ -1,0 +1,223 @@
+desa-mutis/
+│── index.html          (Profil Desa Mutis)
+│── data.html           (Data Warga)
+│── surat.html          (Layanan Surat Online)
+│── info.html           (Informasi Publik & Pengumuman)
+│── formulir.html       (Formulir Digital: Pengajuan Surat & Keluhan Warga)
+│── galeri.html         (Galeri & Dokumentasi)
+│── sitemap.xml
+│── robots.txt
+│── assets/
+    ├── css/style.css
+    └── img/ (gambar desa)
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Desa Mutis</title>
+  <meta name="description" content="Website Resmi Desa Mutis - Profil, Data Warga, Layanan Surat Online, Informasi Publik, Formulir Digital, dan Galeri Dokumentasi.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Website Resmi Desa Mutis</h1>
+    <p>Informasi • Pelayanan • Transparansi</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Profil Desa</a>
+    <a href="data.html">Data Warga</a>
+    <a href="surat.html">Layanan Surat</a>
+    <a href="info.html">Informasi Publik</a>
+    <a href="formulir.html">Formulir Digital</a>
+    <a href="galeri.html">Galeri</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Sejarah Singkat & Latar Belakang</h2>
+      <p>“Mutis” merujuk pada kawasan hutan/pegunungan Mutis Timau atau Cagar Alam Mutis. Kawasan ini sangat penting dalam sistem ekologis Pulau Timor, sebagai sumber air dan “paru-paru” alam.</p>
+      <p>Dalam beberapa tahun terakhir muncul perdebatan mengenai status hukum kawasan Mutis. Pemerintah mengusulkan perubahan status dari cagar alam menjadi taman nasional, yang memicu protes masyarakat adat terkait hak-hak adat.</p>
+      <p>Masyarakat adat memiliki aturan sendiri terhadap kunjungan ke kawasan ini, demi menjaga kelestarian dan nilai adat.</p>
+    </section>
+
+    <section>
+      <h2>Lokasi & Letak Administratif</h2>
+      <p>Kawasan Mutis berada di Kabupaten Timor Tengah Selatan (TTS) dan Kabupaten Timor Tengah Utara (TTU), NTT. Desa Mutis berjarak ±10 km dari ibu kota kecamatan, ±47 km dari ibu kota kabupaten, dan ±157 km dari ibu kota provinsi.</p>
+    </section>
+
+    <section>
+      <h2>Luas Wilayah</h2>
+      <p>Luas Kecamatan Mutis adalah 90,50 km². Kawasan Mutis Timau lebih luas lagi, ±787,89 km², meliputi beberapa kabupaten.</p>
+    </section>
+
+    <section>
+      <h2>Potensi Alam & Ekonomi</h2>
+      <ul>
+        <li><strong>Sumber Air & Pengatur Iklim:</strong> Hutan Mutis menjadi daerah tangkapan air penting.</li>
+        <li><strong>Keanekaragaman Hayati:</strong> Habitat burung langka & pohon endemik Ampupu.</li>
+        <li><strong>Pariwisata:</strong> Trekking, sunrise, wisata budaya.</li>
+        <li><strong>Pertanian:</strong> Pertanian subsisten masyarakat desa sekitar.</li>
+        <li><strong>Hak Adat:</strong> Aturan adat kuat dalam pengelolaan hutan.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pemerintah Desa Mutis</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Data Warga Desa Mutis</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header><h1>Data Warga Desa Mutis</h1></header>
+  <nav>
+    <a href="index.html">Profil Desa</a>
+    <a href="data.html">Data Warga</a>
+    <a href="surat.html">Layanan Surat</a>
+    <a href="info.html">Informasi Publik</a>
+    <a href="formulir.html">Formulir Digital</a>
+    <a href="galeri.html">Galeri</a>
+  </nav>
+
+  <main>
+    <h2>Statistik Penduduk</h2>
+    <table border="1" cellpadding="5">
+      <tr><th>Keterangan</th><th>Jumlah</th></tr>
+      <tr><td>Total Penduduk</td><td>± 3.200 jiwa</td></tr>
+      <tr><td>Jumlah KK</td><td>650 KK</td></tr>
+      <tr><td>Laki-laki</td><td>1.600</td></tr>
+      <tr><td>Perempuan</td><td>1.600</td></tr>
+      <tr><td>Pekerjaan utama</td><td>Petani, peternak, pedagang kecil</td></tr>
+    </table>
+  </main>
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Layanan Surat Online Desa Mutis</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header><h1>Layanan Surat Menyurat Online</h1></header>
+  <nav> ... (menu sama) ... </nav>
+
+  <main>
+    <h2>Jenis Layanan</h2>
+    <ul>
+      <li>Surat Keterangan Domisili</li>
+      <li>Surat Keterangan Usaha</li>
+      <li>Surat Keterangan Kelahiran</li>
+      <li>Surat Keterangan Kematian</li>
+    </ul>
+
+    <h2>Formulir Pengajuan</h2>
+    <form action="https://formspree.io/f/mayformid" method="POST">
+      <label>Nama Lengkap:</label><br>
+      <input type="text" name="nama" required><br>
+      <label>Jenis Surat:</label><br>
+      <select name="jenis">
+        <option>Domisili</option>
+        <option>Usaha</option>
+        <option>Kelahiran</option>
+        <option>Kematian</option>
+      </select><br>
+      <label>Keterangan Tambahan:</label><br>
+      <textarea name="keterangan"></textarea><br>
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Informasi Publik Desa Mutis</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header><h1>Informasi Publik & Pengumuman</h1></header>
+  <nav> ... (menu sama) ... </nav>
+
+  <main>
+    <h2>Berita & Agenda</h2>
+    <article>
+      <h3>Pembangunan Jalan Desa</h3>
+      <p>Proyek perbaikan jalan sedang berjalan di Dusun A, ditargetkan selesai bulan depan.</p>
+    </article>
+    <article>
+      <h3>Rapat Desa</h3>
+      <p>Rapat rutin akan dilaksanakan pada hari Sabtu, pukul 09.00 di Balai Desa.</p>
+    </article>
+  </main>
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Digital Desa Mutis</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header><h1>Formulir Digital</h1></header>
+  <nav> ... (menu sama) ... </nav>
+
+  <main>
+    <h2>Formulir Pengajuan Surat</h2>
+    <form action="https://formspree.io/f/mayformid" method="POST">
+      <input type="text" name="nama" placeholder="Nama Lengkap" required><br>
+      <input type="text" name="alamat" placeholder="Alamat"><br>
+      <button type="submit">Kirim Pengajuan</button>
+    </form>
+
+    <h2>Formulir Keluhan Warga</h2>
+    <form action="https://formspree.io/f/mayformid" method="POST">
+      <input type="text" name="nama" placeholder="Nama Warga" required><br>
+      <textarea name="keluhan" placeholder="Tulis keluhan Anda..." required></textarea><br>
+      <button type="submit">Kirim Keluhan</button>
+    </form>
+  </main>
+</body>
+</html><!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeri Desa Mutis</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header><h1>Galeri Dokumentasi</h1></header>
+  <nav> ... (menu sama) ... </nav>
+
+  <main>
+    <h2>Kegiatan Desa</h2>
+    <div class="gallery">
+      <img src="assets/img/kegiatan1.jpg" alt="Pembangunan Jalan Desa">
+      <img src="assets/img/kegiatan2.jpg" alt="Rapat Desa">
+      <img src="assets/img/kegiatan3.jpg" alt="Wisata Alam Mutis">
+    </div>
+  </main>
+</body>
+</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://username.github.io/desa-mutis/index.html</loc></url>
+  <url><loc>https://username.github.io/desa-mutis/data.html</loc></url>
+  <url><loc>https://username.github.io/desa-mutis/surat.html</loc></url>
+  <url><loc>https://username.github.io/desa-mutis/info.html</loc></url>
+  <url><loc>https://username.github.io/desa-mutis/formulir.html</loc></url>
+  <url><loc>https://username.github.io/desa-mutis/galeri.html</loc></url>
+</urlset>
+User-agent: *
+Allow: /
+
+Sitemap: https://username.github.io/desa-mutis/sitemap.xml
